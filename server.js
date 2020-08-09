@@ -7,8 +7,10 @@ const express = require("express");
 var exphbs  = require('express-handlebars');
 
 const app = express();
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
+app.engine('html', exphbs({
+  extname: '.html'
+}));
+app.set('view engine', 'html');
  
 app.get('/', function (req, res) {
     res.render('home', {
