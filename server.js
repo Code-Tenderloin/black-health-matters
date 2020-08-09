@@ -9,14 +9,22 @@ var exphbs  = require('express-handlebars');
 const app = express();
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
- 
+
+app.use(express.static('public'))
+
 app.get('/', function (req, res) {
     res.render('home', {
       title: "Home"
     });
 });
 
-app.use(express.static('public'))
+app.get('/:title', function (req, res) {
+    const { title } = req.params
+    console.log({title})
+    res.render(title, {
+      title
+    });
+})
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, () => {
