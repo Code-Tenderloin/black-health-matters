@@ -7,10 +7,8 @@ const express = require("express");
 var exphbs  = require('express-handlebars');
 
 const app = express();
-app.engine('html', exphbs({
-  extname: '.html'
-}));
-app.set('view engine', 'html');
+app.engine('handlebars', exphbs());
+app.set('view engine', 'handlebars');
  
 app.get('/', function (req, res) {
     res.render('home', {
@@ -18,6 +16,7 @@ app.get('/', function (req, res) {
     });
 });
 
+app.use(express.static('public'))
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, () => {

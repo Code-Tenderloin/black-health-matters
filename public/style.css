@@ -1,56 +1,51 @@
-/* this file is loaded by index.html and styles the page */
-
-* {
-  box-sizing: border-box;
+html {
+  --cool-background: #cffcff;
+  --cool-foreground: #358600;
+  --dark-background: #63c132;
+  --dark-foreground: #aaefdf;
+  --highlight: #aaefdf;
 }
 
 body {
-  font-family: sans-serif;
-  margin: 2em 1em;
-  line-height: 1.5em;
+  background-color: var(--cool-background);
+  color: var(--cool-foreground);
+  font-family: helvetica, sans-serif;
 }
-
-h1 {
-  font-style: italic;
-  color: #373fff;
-  max-width: calc(100% - 5rem);
-  line-height: 1.1;
-}
-
-form {
-  background-color: #eee;
-  display: grid;
-  grid-gap: 1em;
-  padding: 1em;
-  max-width: 40ch;
-}
-
-input {
-  border: 1px solid silver;
-  display: block;
-  font-size: 16px;
-  margin-bottom: 10px;
-  padding: 5px;
+nav {
   width: 100%;
+  color: var(dark-foreground);
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  background-color: var(--dark-background);
+  display: inline-block;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 5px;
+  text-align: center;
+  width: 150px;
+}
+nav li:hover {
+  background-color: var(--highlight);
+}
+nav li a {
+  color: var(--cool-background);
+  text-decoration: none;
+}
+nav li:hover a {
+  color: var(--dark-background);
+}
+.content {
+  background-color: var(--dark-foreground);
+  color: var(--cool-foreground);
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
-form button {
-  background-color: #bbbbf2;
-  border: 2px solid currentColor;
-  border-radius: .25em;
-  cursor: pointer;
-  font-size: inherit;
-  line-height: 1.4em;
-  padding: 0.25em 1em;
-  max-width: 20ch;
-}
-
-form button:hover {
-  background-color: lavender;
-}
-
-footer {
-  margin-top: 3em;
-  padding-top: 1.5em;
-  border-top: 1px solid lightgrey;
+.headshot {
+  width: 100%;
+  max-width: 400px;
 }
