@@ -14,17 +14,21 @@ app.use(express.static('public'))
 
 app.get('/', function (req, res) {
     res.render('home', {
-      title: "Home"
+      title: "home",
+      displayTitle: 'Home'
     });
 });
 
 app.get('/:title', function (req, res) {
     const { title } = req.params
     const titleCapitalized = title.charAt(0).toUpperCase() + title.slice(1)
-    const titleWithSpaces = titleCapitalized.replace('_', ' ')
-    console.log({title})
+    const displayTitle = titleCapitalized.replace(/\_/g, ' ')
+    
+    console.log({title, displayTitle})
+  
     res.render(title, {
-      title: titleWithSpaces
+      title,
+      displayTitle
     });
 })
 
