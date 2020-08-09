@@ -20,9 +20,11 @@ app.get('/', function (req, res) {
 
 app.get('/:title', function (req, res) {
     const { title } = req.params
+    const titleCapitalized = title.charAt(0).toUpperCase() + title.slice(1)
+    const titleWithSpaces = titleCapitalized.replace('_', ' ')
     console.log({title})
     res.render(title, {
-      title
+      title: titleWithSpaces
     });
 })
 
