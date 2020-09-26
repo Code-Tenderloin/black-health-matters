@@ -34,20 +34,6 @@ app.get('/:title', function (req, res) {
     });
 })
 
-app.get('/article/:title', function (req, res) {
-    const { title } = req.params
-    
-    const titleCapitalized = title.charAt(0).toUpperCase() + title.slice(1)
-    const displayTitle = titleCapitalized.replace(/\_/g, ' ')
-    console.log({title, displayTitle})
-  
-    res.render(title, {
-      title,
-      displayTitle
-    });
-})
-
-
 // listen for requests :)
 const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
