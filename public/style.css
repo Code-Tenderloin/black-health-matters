@@ -26,9 +26,10 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  overflow-x: auto;
+  overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  text-align:center; 
   background-color: #005a87;
 }
 
@@ -36,7 +37,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   padding-top: 10px;
   padding-left: 10px;
 }
@@ -44,15 +45,15 @@ body {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff8000;
   display: block;
   transition: 0.3s;
 }
 
-.sidenav a:hover {
-  color: #005a87;
-  background-color: white;
+.sidenav a:hover{
+  color: white;
 }
 
 .sidenav .closebtn {
@@ -62,32 +63,6 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
-
-
-
-/* nav ul {
-  list-style: none;
-  text-align: center;
-}
-nav li {
-  background-color: var(--dark-background);
-  display: inline-block;
-  padding: 5px;
-  margin: 15px;
-  border-radius: 5px;
-  text-align: center;
-  width: 150px;
-}
-nav li:hover {
-  background-color: var(--highlight);
-}
-nav li a {
-  color: var(--cool-background);
-  text-decoration: none;
-}
-nav li:hover a {
-  color: var(--dark-background);
-} */
 
 .content {
   background-color: var(--dark-foreground);
