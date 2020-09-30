@@ -1,9 +1,17 @@
 html {
   --cool-background: #cffcff;
   --cool-foreground: #358600;
-  --dark-background: #63c132;
+  --dark-background: #005a87;
   --dark-foreground: #aaefdf;
   --highlight: #aaefdf;
+}
+
+h1 {
+  color: #ff8000;
+}
+
+p {
+  color: #005a87;
 }
 
 body {
@@ -11,11 +19,52 @@ body {
   color: var(--cool-foreground);
   font-family: helvetica, sans-serif;
 }
-nav {
-  width: 100%;
-  color: var(dark-foreground);
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  background-color: var(--dark-foreground);
 }
-nav ul {
+
+.align {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: lightpink;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+/* nav ul {
   list-style: none;
   text-align: center;
 }
@@ -37,8 +86,7 @@ nav li a {
 }
 nav li:hover a {
   color: var(--dark-background);
-}
-
+} */
 
 .content {
   background-color: var(--dark-foreground);
