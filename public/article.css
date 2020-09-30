@@ -1,0 +1,6 @@
+.content {
+  background-color: var(--light-foreground);
+  color: var(--cool-foreground);
+  padding: 1rem;
+  border-radius: 1rem;
+}

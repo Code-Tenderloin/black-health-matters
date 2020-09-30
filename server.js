@@ -30,7 +30,8 @@ app.get('/:title', function (req, res) {
   
     res.render(title, {
       title,
-      displayTitle
+      displayTitle,
+      layout: 'article.handlebars'
     });
 })
 
