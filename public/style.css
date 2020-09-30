@@ -9,10 +9,13 @@ html {
 h1 {
   color: #ff8000;
   text-align: center;
+  font-weight: bold;
 }
 
 p {
   color: white;
+  font-size: 18px;
+  text-align: center;
 }
 
 body {
