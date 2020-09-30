@@ -26,10 +26,10 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  overflow-x: hidden;
+  overflow-x: auto;
   transition: 0.5s;
   padding-top: 60px;
-  background-color: var(--dark-foreground);
+  background-color: #005a87;
 }
 
 .align {
@@ -51,7 +51,8 @@ body {
 }
 
 .sidenav a:hover {
-  color: lightpink;
+  color: #005a87;
+  background-color: white;
 }
 
 .sidenav .closebtn {
