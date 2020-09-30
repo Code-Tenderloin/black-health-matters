@@ -18,7 +18,6 @@ p {
 body {
   background-color: var(--cool-background);
   color: var(--cool-foreground);
-  font-family: helvetica, sans-serif;
 }
 .sidenav {
   height: 100%;
@@ -70,4 +69,14 @@ body {
   color: var(--cool-foreground);
   padding: 1rem;
   border-radius: 1rem;
+}
+
+body {
+ font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 300;
+ text-transform: uppercase;
 }
