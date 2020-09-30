@@ -8,10 +8,11 @@ html {
 
 h1 {
   color: #ff8000;
+  text-align: center;
 }
 
 p {
-  color: #005a87;
+  color: white;
 }
 
 body {
