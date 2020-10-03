@@ -83,9 +83,8 @@ body {
 .subtext{
   color: black;
   font-weight: bold;
+  font-size: 20px;
 }
-
-
 
 body {
  font-family: 'Lora', serif;
@@ -94,7 +93,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
  font-family: 'Montserrat', sans-serif;
  text-transform: uppercase;
-  opacity: 1.0;
 }
 
 
