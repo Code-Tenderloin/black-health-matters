@@ -7,9 +7,7 @@
 p{
   padding: 50px;
 }
-.img1{
-  padding-left: 350px;
-  padding-right: 350px;
-  height: 150px;
-  width: 150px;
+.centered-image {
+  margin: auto;
+  display: block;
 }
