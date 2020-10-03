@@ -84,6 +84,22 @@ body {
   color: black;
   font-weight: bold;
   font-size: 20px;
+  background-color: white;
+  opacity: 0.7;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+h1 span{
+    transition: 0.5s;
+}
+h1:hover {
+    color: #083954;
+    text-shadow: 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000;
 }
 
 body {
