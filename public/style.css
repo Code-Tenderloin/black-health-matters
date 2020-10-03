@@ -24,10 +24,9 @@ h2{
 .box{
     background-size: cover;
     background-color: black;
-    width: 300px;
-    height: 300px;
-    padding-bottom: 20%;
-    margin: 80px auto;
+    width: 90%;
+    height: 90%;
+    margin: 30% auto;
 }
 
 h3{
@@ -151,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cd-section--bg-fixed {
-  min-height: 100vh;
+  min-height: 120vh;
   background-attachment: fixed;
 }
 
