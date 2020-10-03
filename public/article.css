@@ -12,3 +12,13 @@ p{
   margin: auto;
   display: block;
 }
+img {
+  max-width: 100%;
+}
+
+.pullout {
+  display: flex;
+}
+.pullout > * {
+  max-width: 50%;
+}
