@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
     });
 });
 
-app.get('/:title', function (req, res) {
+app.get('/:title.html', function (req, res) {
     const { title } = req.params
     
     const titleCapitalized = title.charAt(0).toUpperCase() + title.slice(1)
