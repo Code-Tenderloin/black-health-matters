@@ -80,11 +80,12 @@ body {
   z-index: +2;
 }
 
-.first-header{
-  background-color: white;
-  color: ;
-  opacity: 0.5;
+.subtext{
+  color: black;
+  font-weight: bold;
 }
+
+
 
 body {
  font-family: 'Lora', serif;
