@@ -202,35 +202,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
 }
 
-{
-  box-sizing: border-box;
-}
-
 /* Create two equal columns that floats next to each other */
-.columns {
+.col-sm {
   float: right;
   width: 50%;
   padding: 10px;
   height: 300px; 
 }
 
-.imgcolumns {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-a:hover{
+.card:hover {
   text-decoration: none;
-  background-color: blue;
+  background-color: #c2e7ed;
 }
 
 /* flip card hover effects */
@@ -284,7 +266,7 @@ p {
   font-family: courier, sans;
 }
 
-.card1 {
+.card {
   display: block;
   position: relative;
   max-width: 262px;
@@ -296,7 +278,7 @@ p {
   z-index: 0;
   overflow: hidden;
 
-  &:before {
+   .card1:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -316,26 +298,17 @@ p {
   }
 }
 
-/* .card1:hover {
-/*   p { */
-/*     transition: all 0.3s ease-out;
-    color: rgba(255, 255, 255, 0.8); */
-/*   } */
-/*   .size { */
-/*     transition: all 0.3s ease-out;
-    color: #ffffff; */
-/*   } */
-} */
-
 .card1:hover {
-    color: #083954;
-    text-shadow: 0 0 10px #ff8000,
-                 0 0 10px #ff8000,
-                 0 0 10px #ff8000,
-                 0 0 10px #ff8000,
-                 0 0 10px #ff8000,
-                 0 0 10px #ff8000;
-}
+   p { 
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8); 
+   } 
+  .size { 
+    transition: all 0.3s ease-out;
+    color: #ffffff; 
+  } 
+} 
+
 
 .card2 {
   display: block;
