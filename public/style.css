@@ -191,10 +191,15 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 50vh;
 }
 
-.links{
+href{
   align-items: center;
-  font-size: 30px;
-  color: black;
+  font-size: 45px;
+  color: blue;
+}
+
+.names{
+    color: blue;
+    font-size: 30px;
 }
 
 a:hover{
@@ -203,6 +208,7 @@ a:hover{
 
 
 /* flip card hover effects */
+
 .card3 {
   display: block;
   top: 0px;
@@ -230,11 +236,10 @@ a:hover{
 .card3:hover {
   p{color: #00838d}
   .go-corner {
-    transition: opactiy 0.3s linear;
+    transition: opacity 0.3s linear;
     opacity: 1;
   }
 }
-
 
 .go-arrow {
   margin-top: -4px;
@@ -286,5 +291,30 @@ a:hover{
 
   &:hover:before {
     transform: scale(21);
+  }
+}
+
+
+
+.card2 {
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 262px;
+  background-color: #f2f8f9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+
+  &:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
   }
 }
