@@ -1,3 +1,7 @@
+html,body {
+  padding: 0;
+}
+
 html {
   --cool-background: #083954;
   --cool-foreground: #083954;
