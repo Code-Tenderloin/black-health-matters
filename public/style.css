@@ -230,6 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a:hover{
   text-decoration: none;
+  background-color: blue;
 }
 
 /* flip card hover effects */
@@ -243,7 +244,7 @@ a:hover{
   justify-content: center;
 }
 
-h3 {
+.size {
   color: #262626;
   font-size: 17px;
   line-height: 24px;
@@ -315,15 +316,25 @@ p {
   }
 }
 
+/* .card1:hover {
+/*   p { */
+/*     transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8); */
+/*   } */
+/*   .size { */
+/*     transition: all 0.3s ease-out;
+    color: #ffffff; */
+/*   } */
+} */
+
 .card1:hover {
-  p {
-    transition: all 0.3s ease-out;
-    color: rgba(255, 255, 255, 0.8);
-  }
-  h3 {
-    transition: all 0.3s ease-out;
-    color: #ffffff;
-  }
+    color: #083954;
+    text-shadow: 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000,
+                 0 0 10px #ff8000;
 }
 
 .card2 {
@@ -436,7 +447,7 @@ p {
     border: 1px solid #CD3D73;
   }
   
-  h3 {margin-top: 8px;}
+  .size {margin-top: 8px;}
 }
 
 .card4:hover {
