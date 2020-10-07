@@ -191,15 +191,15 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 50vh;
 }
 
-href{
+.links{
   align-items: center;
-  font-size: 45px;
-  color: blue;
+  font-size: 30px;
+  color: black;
 }
 
 .names{
-    color: blue;
-    font-size: 30px;
+  color: black;
+  font: 30px;
 }
 
 a:hover{
@@ -262,17 +262,6 @@ a:hover{
   border-radius: 0 4px 0 32px;
 }
 
-/*   .go-corner {
-    background-color: #00838d;
-    height: 100%;
-    width: 16px;
-    padding-right: 9px;
-    border-radius: 0;
-    transform: skew(6deg);
-    margin-right: -36px;
-    align-items: start;
-    background-image: linear-gradient(-45deg, #8F479A 1%, #DC2A74 100%);
-  } */
 
 &:before {
     content: "";
