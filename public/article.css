@@ -6,6 +6,9 @@ p{
   padding: 50px;
   text-align: justify;
 }
+.story-content {
+  max-width: 720px;
+}
 .centered-image {
   margin: auto;
   display: block;
