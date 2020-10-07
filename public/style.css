@@ -118,15 +118,17 @@ body {
   color: black;
   font-weight: bold;
   font-size: 20px;
-  background-color: white;
-  opacity: 0.7;
-  margin-left: 13%;
-  margin-right: 13%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-top: 20px;
   border: solid;
   border-width: 0.5px;
   border-color: gray;
+  background-color: white;
+  opacity: 0.7;
+  padding: 15px;
 }
+
 .glow {
     transition: 0.5s;
 }
@@ -195,6 +197,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   font-size: 30px;
   color: black;
+  border: solid;
+  border-width: 0.5px;
+  border-color: gray;
+  background-color: white;
+  opacity: 0.7;
 }
 
 .names p{
@@ -202,9 +209,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 30px;
 }
 
-/* Create two equal columns that floats next to each other */
 table{
-  
+  float: left;
 }
 
 .card:hover {
@@ -282,8 +288,27 @@ p {
   transition: all 0.3s ease-out;
 }
 
+ 
 
 
+.go-corner {
+    transition: opactiy 0.3s linear;
+    opacity: 1;
+  }
+
+.card4 {
+  display: block;
+  top: 0px;
+  position: relative;
+  max-width: 262px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  
   .go-corner {
     background-color: #00838d;
     height: 100%;
