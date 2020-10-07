@@ -125,7 +125,7 @@ body {
   border-width: 0.5px;
   border-color: gray;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.8;
   padding: 15px;
 }
 
@@ -201,7 +201,8 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 0.5px;
   border-color: gray;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.8;
+  padding: 2px;
 }
 
 .names p{
@@ -215,7 +216,7 @@ table{
 
 .card:hover {
   text-decoration: none;
-  background-color: #c2e7ed;
+  background-color: #b1e9f2;
 }
 
 .home-share-buttons {
@@ -309,7 +310,8 @@ p {
   overflow: hidden;
   border: 1px solid #cccccc;
   
-  .go-corner {
+  
+.go-corner {
     background-color: #00838d;
     height: 100%;
     width: 16px;
