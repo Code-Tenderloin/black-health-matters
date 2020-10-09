@@ -3,9 +3,6 @@
   color: var(--cool-foreground);
 }
 
-p{
-  text-align: justify;
-}
 .story-content {
   max-width: 800px;
 }
@@ -22,7 +19,10 @@ img {
   background-color: rgba(255,255,255, 0.3)
 }
 .pullout > img {
-  max-width: 50%;
+  max-width: 50em;
+  max-height: 50em;
+  margin-top: 8%;
+  margin-left: 15%;
 }
 
 @media (min-width: 768px) {
@@ -49,4 +49,12 @@ ul.share-buttons .sr-only{
   width: 1px;
   overflow: hidden;
   position: center;
+}
+
+.space {
+  padding-top: 100px; 
+}
+
+.writer {
+  
 }
