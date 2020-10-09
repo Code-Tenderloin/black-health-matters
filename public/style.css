@@ -21,10 +21,11 @@ h1 {
 
 h2{
     position: relative;
-    top: 10px;
-    left: 15px;
     font-size: 50px !important; 
     color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
 }
 
 .box{
@@ -244,10 +245,11 @@ table{
 }
 
 p {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 40px;
   color: #666666;
+  padding-bottom: 50px;
 
   &.small {
     font-size: 14px;
