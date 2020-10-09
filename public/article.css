@@ -4,7 +4,8 @@
 }
 
 .story-content {
-  max-width: 800px;
+  max-width: 60%;
+  padding-top: 100px; 
 }
 .centered-image {
   margin: auto;
@@ -20,9 +21,10 @@ img {
 }
 .pullout > img {
   max-width: 50em;
-  max-height: 50em;
-  margin-top: 8%;
-  margin-left: 15%;
+  max-height: 30em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 5%;
 }
 
 @media (min-width: 768px) {
@@ -56,5 +58,13 @@ ul.share-buttons .sr-only{
 }
 
 .writer {
+  text-align: center; 
+}
+
+.quote {
   
+  padding-top: 300px; 
+  padding-left: 200px; 
+  padding-right: 90px; 
+  text-align: left; 
 }
