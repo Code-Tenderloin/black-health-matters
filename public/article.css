@@ -35,7 +35,7 @@ img {
 
 ul.share-buttons{
   list-style: none;
-  padding-left: 50%;
+  padding-left: 47%;
   padding-bottom: 100px;
 }
 
@@ -54,18 +54,14 @@ ul.share-buttons .sr-only{
   position: center;
 }
 
-.space {
-  padding-top: 625%; 
-}
-
 .writer {
   text-align: left; 
 }
 
 .quote {
-  padding-top: 1562.5%; 
-  padding-left: 937.5%; 
-  padding-right: 562.5%; 
+  padding-top: 250px; 
+  padding-left: 150px; 
+  padding-right: 90px; 
   text-align: left;
 }
 

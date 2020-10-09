@@ -224,6 +224,7 @@ table{
 .home-share-buttons {
   display: grid;
   grid-template-columns: auto auto;
+  padding-left: 4%;
 }
 
 /* flip card hover effects */
