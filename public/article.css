@@ -62,7 +62,7 @@ ul.share-buttons .sr-only{
 }
 
 .quote {
-  padding-top: 280px; 
+  padding-top: 250px; 
   padding-left: 150px; 
   padding-right: 90px; 
   text-align: left; 
@@ -70,8 +70,13 @@ ul.share-buttons .sr-only{
 
 .author {
   padding-top: 20px; 
+  text-align: left;
 }
 
 .center {
   text-align: center;
 }
+
+       hr.class-6 { 
+            border-top: 3px solid #f0f0f0; 
+        } 

@@ -22,6 +22,7 @@ h1 {
 h2{
     position: relative;
     font-size: 50px !important; 
+    font-weight: bold;
     color: white;
     padding-top: 50px;
     padding-bottom: 20px;
