@@ -1,5 +1,9 @@
+.first_story{
+  background-color: white;
+}
+
 .content {
-  background-color: var(--light-foreground);
+  background-color: ;
   color: var(--cool-foreground);
 }
 
@@ -17,7 +21,7 @@ img {
 
 .pullout {
   display: flex;
-  background-color: rgba(255,255,255, 0.3)
+  background-color: #083954;
 }
 .pullout > img {
   max-width: 50em;
