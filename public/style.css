@@ -61,6 +61,10 @@ body {
   color: var(--cool-foreground);
 }
 
+.color {
+  color: white !important; 
+}
+
 .sidenav {
   height: 100%;
   width: 0;
