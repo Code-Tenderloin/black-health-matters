@@ -67,6 +67,10 @@ body {
   color: white !important; 
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 .orangeHover:hover {
   color: #ff8000; 
 }
@@ -216,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
   opacity: 0.8;
   padding: 2px;
+  text-decoration: none;
 }
 
 .names p{
@@ -233,9 +238,11 @@ table{
 }
 
 .home-share-buttons {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding-left: 10%;
+  padding-left: 45%;
+}
+
+.home-share-buttons2 {
+  padding-left: 42%; 
 }
 
 /* flip card hover effects */
@@ -266,6 +273,10 @@ table{
 
 .small{
   color: black;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 30px;
+  padding-top: 5%;
 }
 
 .go-corner {
