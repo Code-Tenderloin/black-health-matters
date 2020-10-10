@@ -55,6 +55,7 @@ p {
   color: white;
   font-size: 18px;
   text-align: center;
+  line-height: 40px;
 }
 
 body {
@@ -252,12 +253,11 @@ table{
   margin-bottom: 4px;
 }
 
-p {
+.home > p {
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
   color: #666666;
-  padding-bottom: 50px;
 
   &.small {
     font-size: 14px;

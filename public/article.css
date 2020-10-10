@@ -20,7 +20,6 @@ img {
   max-width: 50em;
   max-height: 30em;
   margin-top: 10%;
-  margin-bottom: 10%;
   margin-left: 5%;
 }
 
@@ -28,6 +27,11 @@ img {
   .pullout > .quote {
     font-size: 300%;
   }
+}
+
+.slug{
+  text-align: left;
+  color: #f7d3a6;
 }
 
 ul.share-buttons{
@@ -83,4 +87,8 @@ hr.class-6 {
 p{
   color: black;
   font-weight: bolder;
+}
+
+.story-content > p {
+  padding-bottom: 50px;
 }
