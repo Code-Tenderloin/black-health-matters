@@ -1,7 +1,9 @@
 .story-content {
   max-width: 60%;
   padding-top: 100px; 
-  background-color: white;
+}
+.full-width-background {
+  background-color: var(--lightest-color);
 }
 .centered-image {
   margin: auto;
@@ -76,3 +78,9 @@ hr.class-6 {
   width: 25%; 
   margin: 0px;
 } 
+
+
+p{
+  color: black;
+  font-weight: bolder;
+}

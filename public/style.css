@@ -5,6 +5,7 @@ html,body {
 
 html {
   --spokesman-background: #004684;
+  --lightest-color: white;
   --cool-background: #083954;
   --cool-foreground: #083954;
   --dark-background: #005a87;
@@ -353,9 +354,4 @@ p {
   .go-arrow {
     opacity: 1;
   }
-}
-
-p{
-  color: black;
-  font-weight: bolder;
 }
