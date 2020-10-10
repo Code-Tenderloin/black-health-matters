@@ -8,7 +8,6 @@ html {
   --cool-background: #083954;
   --cool-foreground: #083954;
   --dark-background: #005a87;
-  --dark-foreground: #004684;
   --highlight: #aaefdf;
 }
 
@@ -108,7 +107,7 @@ body {
 }
 
 .content {
-  background-color: var(--dark-foreground);
+  background-color: var(--spokesman-background);
   color: var(--cool-foreground);
 }
 

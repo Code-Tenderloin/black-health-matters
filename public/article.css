@@ -1,11 +1,4 @@
-.tech_is_a_citadel_del_seymour_built_a_drawbridge{
-  background-color: white;
-}
 
-.content {
-  background-color: ;
-  color: var(--cool-foreground);
-}
 
 .story-content {
   max-width: 60%;
@@ -21,7 +14,6 @@ img {
 
 .pullout {
   display: flex;
-  background-color: #083954;
 }
 .pullout > img {
   max-width: 50em;
