@@ -4,10 +4,11 @@ html,body {
 
 
 html {
+  --spokesman-background: #004684;
   --cool-background: #083954;
   --cool-foreground: #083954;
   --dark-background: #005a87;
-  --dark-foreground: #083954;
+  --dark-foreground: #004684;
   --highlight: #aaefdf;
 }
 
@@ -351,8 +352,6 @@ p {
 }
 
 p{
-  color: whitesmoke;
+  color: black;
+  font-weight: bolder;
 }
-
-
-
