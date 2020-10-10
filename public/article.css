@@ -23,7 +23,7 @@ img {
   max-width: 50em;
   max-height: 30em;
   margin-top: 10%;
-  margin-bottom: 8%;
+  margin-bottom: 10%;
   margin-left: 5%;
 }
 
@@ -59,7 +59,7 @@ ul.share-buttons .sr-only{
 }
 
 .quote {
-  padding-top: 250px; 
+  padding-top: 15%; 
   padding-left: 150px; 
   padding-right: 90px; 
   text-align: left;
