@@ -235,7 +235,7 @@ table{
 .home-share-buttons {
   display: grid;
   grid-template-columns: auto auto;
-  padding-left: 24%;
+  padding-left: 10%;
 }
 
 /* flip card hover effects */
@@ -262,10 +262,10 @@ table{
   font-weight: 400;
   line-height: 40px;
   color: #666666;
+}
 
-  &.small {
-    font-size: 14px;
-  }
+.small{
+  color: black;
 }
 
 .go-corner {
@@ -358,4 +358,8 @@ table{
   .go-arrow {
     opacity: 1;
   }
+}
+
+.row{
+  width: 100%;
 }
