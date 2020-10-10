@@ -11,6 +11,7 @@
 }
 img {
   max-width: 100%;
+  max-height: 80%;
 }
 
 .pullout {
@@ -20,7 +21,14 @@ img {
   max-width: 50em;
   max-height: 30em;
   margin-top: 10%;
+  margin-bottom: 10%;
   margin-left: 5%;
+}
+
+.caption{
+  color: whitesmoke;
+}.credit{
+  color: whitesmoke;
 }
 
 @media (min-width: 768px) {
@@ -60,7 +68,7 @@ ul.share-buttons .sr-only{
 }
 
 .quote {
-  padding-top: 15%; 
+  padding-top: 115% 
   padding-left: 150px; 
   padding-right: 90px; 
   text-align: left;

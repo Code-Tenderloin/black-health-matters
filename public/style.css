@@ -67,6 +67,10 @@ body {
   color: white !important; 
 }
 
+.hover:hover {
+  color: #083954; 
+}
+
 .sidenav {
   height: 100%;
   width: 0;
