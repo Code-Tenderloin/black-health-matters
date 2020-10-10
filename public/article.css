@@ -30,13 +30,23 @@ img {
   margin-left: 5%;
 }
 
-.caption{
-  color: darkgray;
+.header-caption{
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.header-credit{
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.article-caption{
+  color: black;
   font-size: 16px;
 }
 
-.credit{
-  color: darkgray;
+.article-credit{
+  color: black;
   font-size: 16px;
 }
 
@@ -48,7 +58,7 @@ img {
 
 .slug{
   text-align: left;
-  color: #f7d3a6;
+  color: rgb(255, 128, 0);
 }
 
 ul.share-buttons{
@@ -78,7 +88,7 @@ ul.share-buttons .sr-only{
 
 .quote {
   padding-top: 10%;
-  padding-left: 100px; 
+  padding-left: 120px; 
   padding-right: 90px; 
   text-align: left;
 }

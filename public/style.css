@@ -6,7 +6,7 @@ html,body {
 html {
   --spokesman-background: #004684;
   --lightest-color: white;
-  --cool-background: #083954;
+  --cool-background: #004684;
   --cool-foreground: #083954;
   --dark-background: #005a87;
   --highlight: #aaefdf;
@@ -67,8 +67,8 @@ body {
   color: white !important; 
 }
 
-.hover:hover {
-  color: #083954; 
+.orangeHover:hover {
+  color: #ff8000; 
 }
 
 .sidenav {
