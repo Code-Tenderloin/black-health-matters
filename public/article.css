@@ -95,8 +95,16 @@ ul.share-buttons .sr-only{
 
 .author {
   padding-top: 20px; 
+  margin-bottom: 0px;
   text-align: left;
   font-size: 20px;
+  color: white;
+}
+
+.date {
+  padding-top: 0px; 
+  text-align: left;
+  font-size: 16px;
   color: white;
 }
 

@@ -41,7 +41,7 @@ h2{
 
 .box-container{
   padding-bottom: 10%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 h3{
@@ -77,6 +77,12 @@ a:hover{
 
 .orangeHover{
   margin-bottom: 0px;
+}
+
+footer {
+  text-align: center; 
+  padding-top: 1%; 
+  font-style: italic; 
 }
 
 .sidenav {
@@ -293,7 +299,7 @@ table{
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: #00838d;
+  background-color: #005a87;
   border-radius: 0 4px 0 32px;
 }
 
@@ -311,7 +317,7 @@ table{
   background-color: #f2f8f9;
   border-radius: 4px;
   padding: 40px 24px;
-  margin: 20px;
+  margin: 27px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
@@ -341,7 +347,6 @@ table{
   
   
 .go-corner {
-    background-color:   --dark-background;
     height: 100%;
     width: 16px;
     padding-right: 9px;
