@@ -40,7 +40,7 @@ h2{
 }
 
 .box-container{
-  padding-bottom: 20%;
+  padding-bottom: 10%;
   padding-top: 5%;
 }
 
@@ -76,7 +76,7 @@ a:hover{
 }
 
 .orangeHover{
-  
+  margin-bottom: 0px;
 }
 
 .sidenav {
@@ -238,7 +238,7 @@ table{
 
 .card:hover {
   text-decoration: none;
-  background-color: #b1e9f2;
+  background-color: #ed9740;
 }
 
 .home-share-buttons {
@@ -341,7 +341,7 @@ table{
   
   
 .go-corner {
-    background-color: #00838d;
+    background-color:   --dark-background;
     height: 100%;
     width: 16px;
     padding-right: 9px;
