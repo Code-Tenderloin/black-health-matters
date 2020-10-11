@@ -58,7 +58,8 @@ img {
 
 .slug{
   text-align: left;
-  color: rgb(255, 128, 0);
+  color: #ed9740;
+  padding-bottom: 20px;
 }
 
 ul.share-buttons{

@@ -324,9 +324,6 @@ table{
   transition: all 0.3s ease-out;
 }
 
- 
-
-
 .go-corner {
     transition: opactiy 0.3s linear;
     opacity: 1;
