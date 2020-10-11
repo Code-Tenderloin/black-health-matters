@@ -75,6 +75,10 @@ a:hover{
   color: #ff8000; 
 }
 
+.orangeHover{
+  
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -242,7 +246,7 @@ table{
 }
 
 .home-share-buttons2 {
-  padding-left: 42%; 
+  padding-left: 35%; 
 }
 
 /* flip card hover effects */
