@@ -314,8 +314,8 @@ table{
 .card {
   display: block;
   position: relative;
-  max-width: 262px;
-  min-height: 350px;
+  max-width: 275px;
+  min-height: 375px;
   background-color: #f2f8f9;
   border-radius: 4px;
   padding: 40px 24px;
