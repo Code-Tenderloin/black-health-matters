@@ -248,11 +248,11 @@ table{
 }
 
 .home-share-buttons {
-  padding-left: 45%;
+  padding-left: 40%;
 }
 
 .home-share-buttons2 {
-  padding-left: 35%; 
+  padding-left: 25%; 
 }
 
 /* flip card hover effects */
@@ -262,7 +262,7 @@ table{
   height: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 10px;
+  grid-gap: 20px;
   align-items: center;
   justify-content: center;
 }
