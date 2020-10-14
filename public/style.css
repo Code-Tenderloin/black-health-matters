@@ -262,6 +262,7 @@ table{
   height: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
+  grid-gap: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -314,7 +315,7 @@ table{
   display: block;
   position: relative;
   max-width: 262px;
-  min-height: 400px;
+  min-height: 350px;
   background-color: #f2f8f9;
   border-radius: 4px;
   padding: 40px 24px;
