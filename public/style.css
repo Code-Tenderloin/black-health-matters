@@ -380,3 +380,51 @@ table{
 .row{
   width: 100%;
 }
+
+/* meet the team*/
+.mtt-container{
+  display:grid;
+  grid-template-columns:auto auto auto auto auto;
+}
+
+.mtt-card {
+  position: relative;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin:auto
+}
+
+.mtt-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.mtt-card-middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mtt-card:hover .mtt-image {
+  opacity: 0.3;
+}
+
+.mtt-card:hover .mtt-card-middle {
+  opacity: 1;
+}
+
+.mtt-card-text {
+  background-color: black,0.5 ;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
