@@ -409,9 +409,9 @@ table{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -426,7 +426,7 @@ table{
 
 .mtt-card-text {
   color: white;
-  font-size: 16px;
-  padding: 8px 32px;
+  font-size: 12px;
+  padding: 8px 8px;
 }
 /*meet the team*/
