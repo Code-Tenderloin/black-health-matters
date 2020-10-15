@@ -385,8 +385,11 @@ table{
 
 /* meet the team*/
 .mtt-container{
-  display:grid;
-  grid-template-columns:auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
 }
 
 .mtt-card {
