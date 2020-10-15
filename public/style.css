@@ -386,12 +386,13 @@ table{
 /* meet the team*/
 .mtt-container{
   display:grid;
-  grid-template-columns:auto auto auto auto auto;
+  grid-template-columns:auto auto auto auto;
 }
 
 .mtt-card {
+  display: block;
   position: relative;
-  width: 50%;
+  width: 150px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin:auto
 }
