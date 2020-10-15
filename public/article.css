@@ -128,3 +128,8 @@ p{
 .story-content > p {
   padding-bottom: 50px;
 }
+
+.colophon {
+  font-style: italic;
+  font-size: 16px;
+}
