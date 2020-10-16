@@ -85,15 +85,6 @@ a:hover {
   margin-bottom: 0px;
 }
 
-@media (min-width: 576px) {
-  footer {
-    text-align: center;
-    padding-top: 1%;
-    padding-left: 15%;
-    font-style: italic;
-  }
-}
-
 .sidenav {
   height: 100%;
   width: 0;

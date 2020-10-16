@@ -106,6 +106,15 @@ ul.share-buttons .sr-only {
   }
 }
 
+@media (min-width: 576px) {
+  footer {
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 15%;
+    font-style: italic;
+  }
+}
+
 .author {
   padding-top: 20px;
   margin-bottom: 0px;
