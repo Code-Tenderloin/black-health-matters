@@ -1,7 +1,15 @@
 .story-content {
-  max-width: 60%;
+  padding-left: 3em;
+  padding-right: 3em;
   padding-top: 100px;
 }
+
+@media (min-width: 576px) {
+  .story-content {
+    max-width: 60%;
+  }
+}
+
 .full-width-background {
   background-color: var(--lightest-color);
 }
@@ -44,7 +52,6 @@ img {
   font-size: 12px;
 }
 
-
 .image-caption {
   color: black;
   font-size: 16px;
@@ -53,8 +60,8 @@ img {
 
 @media (min-width: 768px) {
   .image-caption {
-  padding-left: 0px;
-}
+    padding-left: 0px;
+  }
 }
 
 .image-credit {
@@ -101,6 +108,10 @@ ul.share-buttons .sr-only {
 .writer {
   text-align: left;
 }
+.quote {
+  padding-left: 2em;
+  padding-right: 2em;
+}
 
 @media (min-width: 576px) {
   .quote {
@@ -113,7 +124,7 @@ ul.share-buttons .sr-only {
 }
 
 footer {
-    font-style: italic;
+  font-style: italic;
 }
 
 @media (min-width: 576px) {
