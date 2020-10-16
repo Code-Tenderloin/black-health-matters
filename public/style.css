@@ -20,7 +20,7 @@ h1 {
   text-shadow: #083954 5px 5px;
 }
 @media (min-width: 576px) { 
-  h1: {
+  h1 {
     font-size: 75px;
   }
 }
