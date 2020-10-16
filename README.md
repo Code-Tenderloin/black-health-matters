@@ -60,7 +60,7 @@ Find out more [about Glitch](https://glitch.com/about).
 
 #### High Priority
 
-- [ ] add “production” environment variable and turn on caching (Alice)
+
 
 #### Before Second Story
 
@@ -109,3 +109,4 @@ Find out more [about Glitch](https://glitch.com/about).
   - [x] Add link to “Black Health Matters” in header menu (QOTW can be removed if necessary) links to Page with Ad image of the series and link, change business tab to BHM (Alice)
   - [x] Cross Post Story to Wordpress With BHM.glitch the canonical permalink (Alice)
 - [x] make link previews look good on social networks with card meta tags (Alice)
+- [x] add “production” environment variable and turn on caching (Alice)
