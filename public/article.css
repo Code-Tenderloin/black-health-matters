@@ -44,27 +44,19 @@ img {
   font-size: 12px;
 }
 
-footer.image-caption {
-  display:block;
+.image-caption {
   color: black;
   font-size: 16px;
   text-align: center;
   padding-left: 0px;
-  width: 100%;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
-footer.image-credit {
-  display:block;
+.image-credit {
   color: black;
   font-size: 14px;
   text-align: center;
   padding-bottom: 50px;
   padding-left: 0px;
-  width: 100%;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
 @media (min-width: 768px) {
@@ -102,11 +94,6 @@ ul.share-buttons .sr-only {
 
 .writer {
   text-align: left;
-}
-
-.quote {
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
 @media (min-width: 576px) {
