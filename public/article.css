@@ -1,6 +1,6 @@
 .story-content {
   max-width: 60%;
-  padding-top: 100px; 
+  padding-top: 100px;
 }
 .full-width-background {
   background-color: var(--lightest-color);
@@ -11,12 +11,16 @@
 }
 img {
   max-width: 100%;
-  max-height: 80%;
 }
 
-.header-image{
-  margin-left: 10%;
-  margin-top: 18%;
+@media (min-width: 576px) {
+  img {
+    max-height: 80%;
+  }
+  .header-image {
+    margin-left: 10%;
+    margin-top: 18%;
+  }
 }
 
 .pullout {
@@ -30,24 +34,24 @@ img {
   margin-left: 5%;
 }
 
-.header-caption{
+.header-caption {
   color: whitesmoke;
   font-size: 15px;
 }
 
-.header-credit{
+.header-credit {
   color: whitesmoke;
   font-size: 12px;
 }
 
-.image-caption{
+.image-caption {
   color: black;
   font-size: 16px;
   text-align: center;
   padding-left: 0px;
 }
 
-.image-credit{
+.image-credit {
   color: black;
   font-size: 14px;
   text-align: center;
@@ -61,23 +65,23 @@ img {
   }
 }
 
-.slug{
+.slug {
   text-align: left;
   color: #ed9740;
   padding-bottom: 20px;
 }
 
-ul.share-buttons{
+ul.share-buttons {
   list-style: none;
   padding-left: 47%;
   padding-bottom: 100px;
 }
 
-ul.share-buttons li{
+ul.share-buttons li {
   display: inline;
 }
 
-ul.share-buttons .sr-only{
+ul.share-buttons .sr-only {
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
   padding: 0;
@@ -89,19 +93,21 @@ ul.share-buttons .sr-only{
 }
 
 .writer {
-  text-align: left; 
-}
-
-.quote {
-  padding-top: 10%;
-  padding-left: 120px; 
-  padding-right: 90px; 
-  padding-bottom: 100px;
   text-align: left;
 }
 
+@media (min-width: 576px) {
+  .quote {
+    padding-top: 10%;
+    padding-left: 120px;
+    padding-right: 90px;
+    padding-bottom: 100px;
+    text-align: left;
+  }
+}
+
 .author {
-  padding-top: 20px; 
+  padding-top: 20px;
   margin-bottom: 0px;
   text-align: left;
   font-size: 20px;
@@ -109,7 +115,7 @@ ul.share-buttons .sr-only{
 }
 
 .date {
-  padding-top: 0px; 
+  padding-top: 0px;
   text-align: left;
   font-size: 16px;
   color: white;
@@ -119,14 +125,13 @@ ul.share-buttons .sr-only{
   text-align: center;
 }
 
-hr.class-6 { 
-  border-top: 3px solid #f0f0f0; 
-  width: 25%; 
+hr.class-6 {
+  border-top: 3px solid #f0f0f0;
+  width: 25%;
   margin: 0px;
-} 
+}
 
-
-p{
+p {
   color: black;
   font-weight: bolder;
   text-align: left;
