@@ -194,7 +194,13 @@ h6 {
 
 .cd-section--bg-fixed {
   min-height: 100vh;
-  background-attachment: fixed;
+}
+/* unfortunately fixed positioning is disabled on mobile because it eats battery */
+@media (min-width: 768px) {
+  .cd-section--bg-fixed {
+    min-height: 100vh;
+    background-attachment: fixed;
+  }
 }
 
 /* backgrounds */
