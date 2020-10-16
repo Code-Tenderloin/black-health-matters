@@ -22,7 +22,7 @@ On the back-end,
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
 
-## Made on [Glitch](https://glitch.com/)
+## Made on [Glitch](https://glitch.com/) by volunteers from the Code Tenderloin OFA Class of 2020
 
 > you can [remix this project on Glitch](https://glitch.com/edit/#!/black-health)
 
@@ -39,7 +39,6 @@ Find out more [about Glitch](https://glitch.com/about).
 * Landing Page on Wordpress Site
 * Published Site: https://bhm.themsuspokesman.com/
 
-
 * Content updated throughout the year, 6 Stories, Last story in April
 * Scrolling interactive like 1619 from nytimes (should it link to individual articles from a home page “map?”)
 * Continuous reading mode like Medium?
@@ -52,29 +51,29 @@ Find out more [about Glitch](https://glitch.com/about).
 * Drop down menu with link to podcast, about (authors, stories), 6 stories
 * Menu to share current story
 
-
-Saturday 2-4(5)
-
-Tues 5-7
-
-Friday Meeting
-
-Launch Date: October 16th Noon Eastern
-We will receive first article no later than Thursday
-
-
 ### TODO:
 
-- [ ] (low priority) Hide cards on their own pages (Alice)
-- [ ] (low priority)Give Card background the solid blue color
-- [ ] add h2 to top of the card that reads: “Other Black Health Matters Stories”
+> If Alice is online and working on this, [she'll probably have the google meet open](https://meet.google.com/htg-jctz-btn)
+
+#### High Priority
+
 - [ ] add “production” environment variable and turn on caching (Alice)
 - [ ] make link previews look good on social networks with card meta tags (Alice)
+
+#### Before Second Story
+
+- [ ] menu to share current story
+- [ ] Hide cards on their own pages (Alice)
+- [ ] Give Card background the solid blue color
+- [ ] add h2 to top of the card that reads: “Other Black Health Matters Stories”
+
+#### Low Priority
+
 - validate responsive design
     - [ ] Enlarge Spokesman logo on home page? For mobile only?
+    - [ ] Inspect article header columns and make a container > row to hold the image and captions?
 - [ ] Add balloons that are toggled by clicking an element
 - [ ] link to the podcast
-- [ ] menu to share current story
 
 ### Needed from Editorial:
 
