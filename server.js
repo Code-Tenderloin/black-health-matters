@@ -25,14 +25,25 @@ app.get('/', function (req, res) {
 
 app.get('/:title.html', function (req, res) {
     const { title } = req.params
+    let meta = {}
+    try {
+      meta = require(`./views/${title}.meta.json`)
+    } catch (e) {
+      console.log(`could not find ./views/${title}.meta.json`)
+    }
     
     const titleCapitalized = title.charAt(0).toUpperCase() + title.slice(1)
     const displayTitle = titleCapitalized.replace(/\_/g, ' ')
-    console.log({title, displayTitle})
+    
+    const {slug, thumbnailUrl} = meta
+    
+    console.log({title, displayTitle, slug, thumbnailUrl})
   
     res.render(title, {
       title,
       displayTitle,
+      slug,
+      thumbnailUrl,
       layout: 'article.handlebars'
     });
 })
