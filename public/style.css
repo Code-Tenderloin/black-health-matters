@@ -12,6 +12,10 @@ html {
   --highlight: #aaefdf;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 h1 {
   color: #ff8000;
   text-align: center;
