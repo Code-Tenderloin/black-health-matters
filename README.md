@@ -6,6 +6,8 @@ A server that serves a handlebars based editorial website to present articles an
 
 - Edit `views/{file}.handlebars` to change the content of a page, it will become `/file.html` on the server (see how `example.handlebars` is rendered to `/example.html`)
 - Edit `views/{file}.meta.json` to control social media link previews for a page
+  - preview twitter share at https://cards-dev.twitter.com/validator
+  - preview facebook share at https://developers.facebook.com/tools/debug/
 - Edit `views/layouts/{file}.handlebars` to change the page wrapper for types of pages
 - Edit `views/partial/{file}.handlebars` to edit a partial included with `{{> file}}` in a handlebars template
 - `public/main.js` is the javacript that runs when you load the home webpage
