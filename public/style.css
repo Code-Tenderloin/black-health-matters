@@ -16,8 +16,13 @@ h1 {
   color: #ff8000;
   text-align: center;
   font-weight: bold;
-  font-size: 75px;
+  font-size: 60px;
   text-shadow: #083954 5px 5px;
+}
+@media (min-width: 576px) { 
+  h1: {
+    font-size: 75px;
+  }
 }
 
 h2{
@@ -382,10 +387,12 @@ table{
   }
 }
 
+/*
 .row{
   width: 100%;
   padding-left: 50px;
 }
+*/
 
 /* meet the team*/
 .mtt-container{
