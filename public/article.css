@@ -2,21 +2,18 @@
   max-width: 60%;
   padding-top: 100px;
 }
-
 .full-width-background {
   background-color: var(--lightest-color);
 }
-
 .centered-image {
   margin: auto;
   display: block;
 }
-
 img {
   max-width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   img {
     max-height: 80%;
   }
@@ -29,7 +26,6 @@ img {
 .pullout {
   display: flex;
 }
-
 .pullout > img {
   max-width: 50em;
   max-height: 30em;
@@ -113,7 +109,7 @@ ul.share-buttons .sr-only {
   margin-right: 1em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .quote {
     padding-top: 10%;
     padding-left: 120px;
