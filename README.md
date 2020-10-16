@@ -1,15 +1,20 @@
-# hello-express
-
-A server that serves a webpage, its resources, and some data
 
 
-## Your Project
+# handlebars-express
+
+A server that serves a handlebars based editorial website to present articles and pages
+
+
+## Project Overview
 
 On the front-end,
 
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
+- Edit `views/{file}.handlebars` to change the content of a page, it will become 
+- Edit `views/layouts/{file}.handlebars` to change the page wrapper for types of pages
+- Edit `views/partial/{file}.handlebars` to create a partial to include with `{{> file}}` in a handlebars template
+- `public/main.js` is the javacript that runs when you load the home webpage
+- `public/style.css` is the styles for every page
+- `public/article.css` is only included on article pages
 - Drag in `assets`, like images or music, to add them to your project
 
 On the back-end,
@@ -21,7 +26,8 @@ On the back-end,
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
 
 
-## Made by [Glitch](https://glitch.com/)
+
+## Made on [Glitch](https://glitch.com/)
 
 **Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
