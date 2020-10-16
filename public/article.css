@@ -45,11 +45,13 @@ img {
 .header-caption.image-caption {
   color: whitesmoke;
   font-size: 15px;
+  padding-left: 15%;
 }
 
 .header-credit.image-caption {
   color: whitesmoke;
   font-size: 12px;
+  padding-left: 15%;
 }
 
 .image-caption {
