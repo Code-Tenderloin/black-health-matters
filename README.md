@@ -21,7 +21,7 @@ On the back-end,
 - add frameworks and packages in `package.json`
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
-
+Set the environment variable `NODE_ENV` to `production` to turn on caching.
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
 
