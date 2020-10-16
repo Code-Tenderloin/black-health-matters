@@ -21,6 +21,8 @@ On the back-end,
 - add frameworks and packages in `package.json`
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
+
+
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
 
 ## Made on [Glitch](https://glitch.com/) by volunteers from the Code Tenderloin OFA Class of 2020
@@ -59,7 +61,6 @@ Find out more [about Glitch](https://glitch.com/about).
 #### High Priority
 
 - [ ] add “production” environment variable and turn on caching (Alice)
-- [ ] make link previews look good on social networks with card meta tags (Alice)
 
 #### Before Second Story
 
@@ -107,3 +108,4 @@ Find out more [about Glitch](https://glitch.com/about).
 - Wordpress Launch
   - [x] Add link to “Black Health Matters” in header menu (QOTW can be removed if necessary) links to Page with Ad image of the series and link, change business tab to BHM (Alice)
   - [x] Cross Post Story to Wordpress With BHM.glitch the canonical permalink (Alice)
+- [x] make link previews look good on social networks with card meta tags (Alice)
