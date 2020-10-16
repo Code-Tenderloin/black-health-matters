@@ -16,7 +16,7 @@ img {
 
 .header-image{
   margin-left: 10%;
-  margin-top: 15%;
+  margin-top: 18%;
 }
 
 .pullout {
@@ -37,7 +37,7 @@ img {
 
 .header-credit{
   color: whitesmoke;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .article-caption{
@@ -91,6 +91,7 @@ ul.share-buttons .sr-only{
   padding-top: 10%;
   padding-left: 120px; 
   padding-right: 90px; 
+  padding-bottom: 100px;
   text-align: left;
 }
 
@@ -123,10 +124,11 @@ hr.class-6 {
 p{
   color: black;
   font-weight: bolder;
+  text-align: left;
 }
 
 .story-content > p {
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .colophon {
