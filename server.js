@@ -16,7 +16,7 @@ app.use(express.static('public'))
 
 app.get('/', function (req, res) {
     res.render('home', {
-      urlOverride: "/",
+      isHome: true,
       title: "home",
       displayTitle: 'Home',
       slug: 'Over the course of the academic year, The Spokesman will report on the disparities in healthcare for the Black community from Maryland’s largest HBCU. The series will explore medical racism, the contentious relationship between the Black community and hospitals, how COVID-19 has exacerbated Black health issues, and the barriers between Black students and medical school.',
