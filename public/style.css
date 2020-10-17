@@ -12,7 +12,8 @@ html {
   --highlight: #aaefdf;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
@@ -258,11 +259,11 @@ table {
 }
 
 .home-share-buttons {
-  text-align: center; 
+  text-align: center;
 }
 
 .home-share-buttons2 {
-  text-align: center; 
+  text-align: center;
 }
 
 /* flip card hover effects */
