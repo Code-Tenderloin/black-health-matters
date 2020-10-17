@@ -114,6 +114,12 @@ ul.share-buttons .sr-only {
   padding-left: 2em;
   padding-right: 2em;
 }
+.quote h2 {
+  font-weight: 300;
+}
+.social h3 {
+  font-weight: 800;
+}
 
 @media (min-width: 576px) {
   .quote {
