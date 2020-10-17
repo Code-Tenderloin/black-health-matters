@@ -60,7 +60,7 @@ Find out more [about Glitch](https://glitch.com/about).
 
 #### High Priority
 
-
+- [ ] Add Clarification (Alice)
 
 #### Before Second Story
 
