@@ -212,7 +212,7 @@ h6 {
   background-image: url("https://cdn.glitch.com/4bc50fa3-b891-45da-ad39-d40ad37d0703%2F7207D8A1-A196-479C-B6BD-20FDDFD151A2.mov.03_20_56_21.Still001.jpg?v=1601428437225");
 }
 
-.cd-section:nth-child(3) {
+.home .cd-section:nth-child(3) {
   /* background image here */
   background-image: url("https://cdn.glitch.com/4bc50fa3-b891-45da-ad39-d40ad37d0703%2F1E1AE42E-C960-4025-83FE-D65467910350.mov.03_15_12_13.Still001.jpg?v=1601428396833");
 }

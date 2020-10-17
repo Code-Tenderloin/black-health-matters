@@ -60,11 +60,9 @@ Find out more [about Glitch](https://glitch.com/about).
 
 #### High Priority
 
-- [ ] Add Clarification (Alice)
-
 #### Before Second Story
 
-- [ ] menu to share current story
+- [ ] make footer into a partial that appears on every page
 - [ ] Hide cards on their own pages (Alice)
 - [ ] Give Card background the solid blue color
 - [ ] add h2 to top of the card that reads: “Other Black Health Matters Stories”
@@ -110,3 +108,4 @@ Find out more [about Glitch](https://glitch.com/about).
   - [x] Cross Post Story to Wordpress With BHM.glitch the canonical permalink (Alice)
 - [x] make link previews look good on social networks with card meta tags (Alice)
 - [x] add “production” environment variable and turn on caching (Alice)
+- [x] Add Clarification (Alice)

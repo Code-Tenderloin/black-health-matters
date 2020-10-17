@@ -172,6 +172,11 @@ p {
   padding-bottom: 25px;
 }
 
+.clarification-title {
+  font-size: 1.5rem;
+  
+}
+
 .colophon {
   font-style: italic;
   font-weight: normal;
