@@ -162,7 +162,7 @@ hr.class-6 {
   margin: 0px;
 }
 
-p {
+.story-content p {
   color: black;
   font-weight: bolder;
   text-align: left;
@@ -174,7 +174,6 @@ p {
 
 .clarification-title {
   font-size: 1.5rem;
-  
 }
 
 .colophon {
