@@ -7,12 +7,18 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node build.js",
+    "watch": "npx onchange -i -k 'build.js' 'views/**/*' -- npm run build",
+    "serve": "npx http-server --port 3000 ./dist"
   },
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
-    "handlebars-helpers": "^0.10.0"
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "handlebars-helpers": "^0.10.0",
+    "mkdirp": "^1.0.4"
   },
   "engines": {
     "node": "12.x"
