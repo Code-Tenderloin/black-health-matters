@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.1.0",
+    "express-handlebars": "^5.2.0",
     "fs-extra": "^9.0.1",
     "handlebars": "^4.7.6",
     "handlebars-helpers": "^0.10.0",
