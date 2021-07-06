@@ -26,20 +26,23 @@ const article = createCompiler(
   readTemplate("/views/layouts/article.handlebars")
 );
 
-fs.writeFileSync(
-  __dirname + "/dist/index.html",
-  main(
-    {
-      isHome: true,
-      title: "home",
-      displayTitle: "Home",
-      slug:
-        "Over the course of the academic year, The Spokesman will report on the disparities in healthcare for the Black community from Maryland’s largest HBCU. The series will explore medical racism, the contentious relationship between the Black community and hospitals, how COVID-19 has exacerbated Black health issues, and the barriers between Black students and medical school.",
-      thumbnailUrl:
-        "https://cdn.glitch.com/03f006d0-e079-4e82-9710-e203769a31d8%2Fad-2.jpg",
-    },
-    function (err) {
-      return console.log(err);
-    }
-  )
-);
+(async () => {
+  console.log("writing index.html");
+  fs.writeFileSync(
+    __dirname + "/dist/index.html",
+    await main(
+      {
+        isHome: true,
+        title: "home",
+        displayTitle: "Home",
+        slug:
+          "Over the course of the academic year, The Spokesman will report on the disparities in healthcare for the Black community from Maryland’s largest HBCU. The series will explore medical racism, the contentious relationship between the Black community and hospitals, how COVID-19 has exacerbated Black health issues, and the barriers between Black students and medical school.",
+        thumbnailUrl:
+          "https://cdn.glitch.com/03f006d0-e079-4e82-9710-e203769a31d8%2Fad-2.jpg",
+      },
+      function (err) {
+        return console.log(err);
+      }
+    )
+  );
+})();
